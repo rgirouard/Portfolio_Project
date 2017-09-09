@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: BenchNine;
+  font-size: 12px;
+  color: #424242;
+  border-top: 50px;
+  padding-right: 3em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: BenchNine;
+  font-style: regular;
+  margin: 0;
+}
+
+header {
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: black;
+  max-height: 400px;
+}
+
+section, div {
+  box-sizing: border-box;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+.header__logo {
+  height: 72px;
+  margin-left: inherit;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.header__title {
+  font-weight: 200;
+  font-size: 3em;
+  color: #212121;
+}
+
+.header__subtitle {
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #212121;
+}
+
+.main_image {
+    max-height: 100%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.featured_work_title {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #212121;
+}
+
+.featured_work {
+  margin: 1.5%;
+  max-width: 100px;
+  padding-top: 5px;
+  font-weight: 200;
+  font-size: 3em;
+  color: #212121;
+}
+
+.featured_work_section{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+@media only screen and (min-width: 500px){
+
+  .header__title {
+    font-weight: 300;
+    font-size: 5em;
+    text-align: right;
+    color: #212121;
+  }
+
+  .header__subtitle {
+    font-weight: 200;
+    font-size: 2.5em;
+    text-align: right;
+    color: #212121;
+  }
+  .featured_work_title {
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 3em;
+    color: #212121;
+  }
+
+  .featured_work {
+    text-align: center;
+    margin: 1.5%;
+    max-width: 30%;
+    padding-top: 2.5px;
+
+  }
+  figure{
+
+    display: flex;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+  figcaption {
+    text-align: left;
+    font-weight: 200;
+    font-size: 3em;
+    color: #212121;
+}
+
+/*
+ *
+ * Main
+ *
+ */
