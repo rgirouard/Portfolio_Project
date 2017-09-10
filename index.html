@@ -1,4 +1,9 @@
 <!doctype html>
+/*
+ *
+ * Initial References
+ *
+ */
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,11 +11,15 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>RG Portfolio</title>
   </head>
+  /*
+   *
+   * Header
+   *
+   */
   <body>
-
     <header>
       <div>
-        <img class="header__logo" src="images/header_logo.png" style="float: left">
+        <img class="header__logo" src="images/header_logo.png" style="float: left" alt="header">
         <h1 class="header__title">
           RANDY GIROUARD
         </h1>
@@ -19,27 +28,36 @@
         </h2>
       </div>
     </header>
-
+    /*
+     *
+     * Main body
+     *
+     */
     <main>
       <section class="content">
-        <img class="main_image" src="images/web-design.jpg" >
-      <section>
+        <img class="main_image" src="images/web-design.jpg" alt="main">
+      </section>
       <h2 class="featured_work_title">
         Featured Work
       </h2>
       <section class="featured_work_section">
         <Figure>
+          <a href="https://github.com/udacity/online-shop"></a>
           <img class="featured_work" src="images/online-shop.jpg">
-          <br/>
-              <figcaption><a href:"https://github.com/udacity/online-shop">Online-Shop</a></figcaption>
+              <figcaption>https://github.com/udacity/online-shop</figcaption>
         </figure>
-        <img class="featured_work" src="images/MatterManager.jpg">
-        <img class="featured_work" src="images/AccountingApp.jpg">
+        <figure class="featured_work_center">
+          <a href="https://github.com/udacity/MatterManager"></a>
+          <img class="featured_work" src="images/MatterManager.jpg">
+              <figcaption>https://github.com/udacity/MatterManager</figcaption>
+        </figure>
+        <figure>
+          <a href="https://github.com/udacity/AccountingApp"></a>
+          <img class="featured_work" src="images/AccountingApp.jpg">
+              <figcaption>https://github.com/udacity/AccountingApp</figcaption>
+        </figure>
+      </section>
 
-        <figcaption><a href:"https://github.com/udacity/online-shop">Matter-Manager</a></figcaption>
-        <figcaption><a href:"https://github.com/udacity/online-shop">Accouting-App</a></figcaption>
-      <section>
-
-    </main>
+     </main>
   </body>
 </html>
