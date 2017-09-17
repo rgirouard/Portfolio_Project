@@ -1,0 +1,209 @@
+/*
+ *
+ * Initial Declarations
+ *
+ */
+body {
+  font-family: BenchNine;
+  font-size: 12px;
+  color: #424242;
+  border-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: BenchNine;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: black;
+  max-height: 400px;
+}
+
+section {
+  display: flex;
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 100%;
+  align-items: flex-end;
+}
+
+figcaption {
+    font-weight: 200;
+    font-size: .5em;
+    color: #212121;
+    text-align: left;
+    margin: 0 auto;
+}
+
+figure {
+  text-align: center;
+   width: 30%;
+   padding: 1.5% 0 1.5% 0;
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+}
+
+/*
+ *
+ * Header under 500px width
+ *
+ */
+
+.header__logo {
+  flex: -1;
+  align-self: flex-start;
+  height: 72px;
+  margin-left: inherit;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.header__title {
+  flex: 1;
+  align-self: flex-end;
+  font-weight: 200;
+  font-size: 3em;
+  color: #212121;
+}
+
+.header__subtitle {
+  flex: 1;
+  align-self: flex-end;
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #212121;
+}
+
+/*
+ *
+ * Main Body under 500px width
+ *
+ */
+
+.main_image {
+    max-height: 100%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.featured_work_title {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #212121;
+}
+/*
+ *
+ * Featured Work under 500px width
+ *
+ */
+ .featured_work{
+  max-width: 100px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-weight: 200;
+  font-size: 3em;
+  color: #212121;
+}
+
+.featured_work_center{
+   padding: 1.5% 4.5% 1.5% 4.5%;
+}
+
+.featured_work_section{
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/*
+ *
+ * Header over 500px width
+ *
+ */
+@media only screen and (min-width: 500px){
+
+  figcaption {
+      font-weight: 200;
+      font-size: 1em;
+      color: #212121;
+      text-align: left;
+      margin: 0 auto;
+  }
+
+  .header__title {
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+    font-weight: 300;
+    font-size: 5em;
+    color: #212121;
+  }
+
+  .header__subtitle {
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: #212121;
+  }
+  /*
+   *
+   * Featured Work over 500px width
+   *
+   */
+  .featured_work_title {
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 3em;
+  }
+
+  .featured_work{
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 2.5px;
+    padding-bottom: 20px;
+  }
+
+  .featured_work_section{
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+/*
+ *
+ * figcaption over 1100px width
+ *
+ */
+@media only screen and (min-width:1100px){
+
+  figcaption {
+      font-weight: 200;
+      font-size: 2em;
+      color: #212121;
+      text-align: left;
+      margin: 0 auto;
+  }
+}
